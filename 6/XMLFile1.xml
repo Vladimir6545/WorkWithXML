@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE listObjects
+[
+  <!ELEMENT listObjects (listObject)*>
+  <!ELEMENT listObject (nameObject,adress,type,dateOfConstruction,numberOfStoreys,numberOfRooms,cost)>
+  <!ELEMENT nameObject (#PCDATA)>
+  <!ELEMENT adress (#PCDATA)>
+  <!ELEMENT type (#PCDATA)>
+  <!ELEMENT dateOfConstruction (#PCDATA)>
+  <!ELEMENT numberOfStoreys (#PCDATA)>
+  <!ELEMENT numberOfRooms (#PCDATA)>
+  <!ELEMENT cost (#PCDATA)>
+  <!ATTLIST listObject id CDATA #REQUIRED>
+ ]>
+ 
+    <listObjects>
+
+      <listObject id="1">
+        <nameObject>Квартира в центре</nameObject>
+        <adress>адрес: проспект Гагарина 38</adress>
+        <type>тип: Квартира</type>
+        <dateOfConstruction>год постройки: 1968</dateOfConstruction>
+        <numberOfStoreys>этаж: 5</numberOfStoreys>
+        <numberOfRooms>количество комнат: 4</numberOfRooms>
+        <cost>цена: 2000</cost>
+      </listObject>
+
+      <listObject id="2">
+        <nameObject>Дом в центре</nameObject>
+        <adress>адрес: Сумская 68</adress>
+        <type>тип: Дом</type>
+        <dateOfConstruction>год постройки: 1995</dateOfConstruction>
+        <numberOfStoreys>этаж: 2</numberOfStoreys>
+        <numberOfRooms>количество комнат: 2</numberOfRooms>
+        <cost>цена: 1000</cost>
+      </listObject>
+
+      <listObject id="3">
+        <nameObject>Участок в центре</nameObject>
+        <adress>адрес: Рымарская 77</adress>
+        <type>тип: Участок</type>
+        <dateOfConstruction>2007</dateOfConstruction>
+        <numberOfStoreys>этаж: 0</numberOfStoreys>
+          <numberOfRooms>количество комнат: 0</numberOfRooms>
+       <cost>цена: 500</cost>
+      </listObject>
+      
+    </listObjects>
+  
+ 
+

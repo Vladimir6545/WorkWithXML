@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="allXsl.xsl" ?>
+  
+    <listObjects>
+
+      <listObject id="1">
+        <nameObject>Квартира в центре</nameObject>
+        <adress>проспект Гагарина 38</adress>
+        <type>Квартира</type>
+        <dateOfConstruction>1968</dateOfConstruction>
+        <numberOfStoreys>5</numberOfStoreys>
+        <numberOfRooms>4</numberOfRooms>
+       
+        <cost>6554</cost>
+      </listObject>
+
+      <listObject id="2">
+        <nameObject>Дом в центре</nameObject>
+        <adress>Сумская 68</adress>
+        <type>Дом</type>
+        <dateOfConstruction>1995</dateOfConstruction>
+        <numberOfStoreys>2</numberOfStoreys>
+        <numberOfRooms>6</numberOfRooms>
+        <cost>5554</cost>
+      </listObject>
+
+      <listObject id="3">
+        <nameObject>Участок</nameObject>
+        <adress>Рымарская 99</adress>
+        <type>Участок</type>
+        <dateOfConstruction>1968</dateOfConstruction>
+        <numberOfStoreys>0</numberOfStoreys>
+        <numberOfRooms>0</numberOfRooms>
+        <cost>4554</cost>
+      </listObject>
+      
+    </listObjects>
+ 
+ 
+

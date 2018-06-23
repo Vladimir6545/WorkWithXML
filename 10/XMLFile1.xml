@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<x:data xmlns:x="x-schema:XMLFile2.xml">
+  
+    <x:listObjects>
+
+      <x:listObject id="1">
+        <x:nameObject>Квартира в центре</x:nameObject>
+        <x:adress>проспект Гагарина 38</x:adress>
+        <x:type>Квартира</x:type>
+        <x:dateOfConstruction>1968</x:dateOfConstruction>
+        <x:numberOfStoreys level="5">
+          <x:numberOfRooms>4</x:numberOfRooms>
+        </x:numberOfStoreys>
+        <x:cost>3000</x:cost>
+      </x:listObject>
+
+      <x:listObject id="2">
+        <x:nameObject>Дом в центре</x:nameObject>
+        <x:adress>Сумская 68</x:adress>
+        <x:type>Дом</x:type>
+        <x:dateOfConstruction>1995</x:dateOfConstruction>
+        <x:numberOfStoreys level="2">
+          <x:numberOfRooms>6</x:numberOfRooms>
+        </x:numberOfStoreys>
+        <x:cost>2500</x:cost>
+      </x:listObject>
+
+      <x:listObject id="3">
+        <x:nameObject>Участок</x:nameObject>
+        <x:adress>Рымарская 55</x:adress>
+        <x:type>Участок</x:type>
+        <x:dateOfConstruction>2007</x:dateOfConstruction>
+        <x:numberOfStoreys level="0">
+          <x:numberOfRooms>0</x:numberOfRooms>
+        </x:numberOfStoreys>
+        <x:cost>1500</x:cost>
+      </x:listObject>
+      
+    </x:listObjects>
+  </x:data>
+ 
+

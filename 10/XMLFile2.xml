@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns:dt="urn:schemas-microsoft-com:datatypes" xmlns="urn:schemas-microsoft-com:xml-data" name="XMLFile2.xml">
+
+  <AttributeType name="id" dt:type="i8" required="yes"> </AttributeType>
+  <AttributeType name="level" dt:type="i8" required="yes"> </AttributeType>
+  
+  
+  <ElementType name="listObject" content="eltOnly" model="closed" order="seq" >
+    <attribute type="id"/>
+    <element type="nameObject"/>
+    <element type="adress"/>
+    <element type="type"/>
+    <element type="dateOfConstruction"/>
+    <element type="numberOfStoreys"/>
+    <element type="cost"/>
+  </ElementType>
+
+  <ElementType name="nameObject" content="textOnly" dt:type="string" model="closed" ></ElementType>
+  <ElementType name="adress" content="textOnly" dt:type="string" model="closed" ></ElementType>
+  <ElementType name="type" content="textOnly" dt:type="string" model="closed" ></ElementType>
+  <ElementType name="dateOfConstruction" content="textOnly" dt:type="i4" model="closed" ></ElementType>
+  <ElementType name="numberOfRooms" content="textOnly" dt:type="i2" model="closed" ></ElementType>
+  <ElementType name="cost" content="textOnly" dt:type="i2" model="closed" ></ElementType>
+
+
+  <ElementType name="data" content="eltOnly" model="closed" order="many">
+    <element type="data"/>
+    <element type="listObjects"/>
+  </ElementType>
+
+  <ElementType name="listObjects" content="eltOnly" model="closed" >
+     <element type="listObject"/>
+   </ElementType>
+
+  <ElementType name="numberOfStoreys" content="eltOnly" model="closed" >
+    <attribute type="level"/>
+    <element type="numberOfRooms"/>
+  </ElementType>
+  
+ </Schema>
